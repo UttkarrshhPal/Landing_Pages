@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #9f8a91;
+    display: flex;
+    /* uske sare children ek hi line me aa jate hai */
+}
+#part1{
+    height: 100%;
+    width: 15%;
+    background-color: #9f8a91;
+}
+#part2{
+    top: 40%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    background-image: url(https://images.unsplash.com/photo-1606005721885-711800ac2d19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+     background-color: rgba(0, 0, 0, 0.538); 
+    /* background-color: #9f8a917a; */
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    background-color: #9f8a91;
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+   
+    /* background-color:red; */
+    left:7% ;
+    top: 50%;
+    transform: translate(0,-50%);
+    
+   
+
+
+}
+#text-div>h1{
+
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    color:  transparent;
+    font-size: 95px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: monospace;
+    line-height: 78px;
+    /* color: white; */
+}
+#small-img-div{
+    
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    right: 4%;
+    /* left: 90%; */
+    top: 50%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1606005722178-4e5d97214c0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.192); */
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+     background-color: rgba(0, 0, 0, 0.538); 
+    /* background-color: #9f8a917a; */
+}
+#verticle-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    /* right: -50%; */
+    transform-origin: 0% 0%;
+    top: 45%;
+   left: 67%;
+    
+}
+#verticle-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color:transparent;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    letter-spacing: 30px;
+    font-family: monospace;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+
+
+}
